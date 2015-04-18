@@ -38,19 +38,19 @@ img { border: 1pt solid grey; }
 	width: 500px;
 	border: none;
 }
-tr td { margin-bottom: 6px; }
-tr td:nth-child(1) {
+.data tr td { margin-bottom: 6px; }
+.data tr td:nth-child(1) {
 	width: 240px;
 	text-align: right;
 }
-tr td:nth-child(2) {
+.data tr td:nth-child(2) {
 	text-align: left;
 	position: relative;
 	left: 6px;
 }
-.table-title {
+.data .table-title {
 	text-align: center !important;
 	color: #f0f8ff !important;
 	background: #dc143c;
 }
-.table-title h2 { color: #f0f8ff; }
+.data .table-title h2 { color: #f0f8ff; }
