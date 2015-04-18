@@ -13,7 +13,7 @@ li { margin-bottom: 10px; }
 
 body {
   padding:50px;
-  font:16px/1.6 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font:16px/1.6 Open Sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#666;
   font-weight:300;
 }
@@ -48,6 +48,8 @@ a {
   font-weight:400;
   text-decoration:none;
 }
+
+.site a:hover { text-decoration:underline; }
 
 a small {
   font-size:11px;
